@@ -1,0 +1,231 @@
+﻿namespace NumericalPRG
+{
+    partial class bisection
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.calc = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtxl = new System.Windows.Forms.TextBox();
+            this.txtxu = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtEquation = new System.Windows.Forms.TextBox();
+            this.txteps = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.clear = new System.Windows.Forms.Button();
+            this.data1 = new System.Windows.Forms.DataGridView();
+            this.txtroot = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.data1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // calc
+            // 
+            this.calc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.calc.Location = new System.Drawing.Point(591, 138);
+            this.calc.Name = "calc";
+            this.calc.Size = new System.Drawing.Size(91, 31);
+            this.calc.TabIndex = 0;
+            this.calc.Text = "Calculate";
+            this.calc.UseVisualStyleBackColor = true;
+            this.calc.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(505, 87);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(36, 21);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Eps";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(503, 56);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(32, 21);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "XU";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(505, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(28, 21);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "XL";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // txtxl
+            // 
+            this.txtxl.Location = new System.Drawing.Point(591, 12);
+            this.txtxl.Name = "txtxl";
+            this.txtxl.Size = new System.Drawing.Size(100, 23);
+            this.txtxl.TabIndex = 4;
+            // 
+            // txtxu
+            // 
+            this.txtxu.Location = new System.Drawing.Point(591, 48);
+            this.txtxu.Name = "txtxu";
+            this.txtxu.Size = new System.Drawing.Size(100, 23);
+            this.txtxu.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(36, 31);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(40, 21);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "F(X)";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // txtEquation
+            // 
+            this.txtEquation.Location = new System.Drawing.Point(103, 31);
+            this.txtEquation.Name = "txtEquation";
+            this.txtEquation.Size = new System.Drawing.Size(176, 23);
+            this.txtEquation.TabIndex = 7;
+            this.txtEquation.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // txteps
+            // 
+            this.txteps.Location = new System.Drawing.Point(591, 87);
+            this.txteps.Name = "txteps";
+            this.txteps.Size = new System.Drawing.Size(100, 23);
+            this.txteps.TabIndex = 8;
+            this.txteps.TextChanged += new System.EventHandler(this.txteps_TextChanged);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(0, 413);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(97, 37);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Exit";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // clear
+            // 
+            this.clear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.clear.Location = new System.Drawing.Point(704, 138);
+            this.clear.Name = "clear";
+            this.clear.Size = new System.Drawing.Size(75, 31);
+            this.clear.TabIndex = 10;
+            this.clear.Text = "Clear";
+            this.clear.UseVisualStyleBackColor = true;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
+            // 
+            // data1
+            // 
+            this.data1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.data1.Location = new System.Drawing.Point(0, 175);
+            this.data1.Name = "data1";
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.data1.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.data1.RowTemplate.Height = 25;
+            this.data1.Size = new System.Drawing.Size(797, 232);
+            this.data1.TabIndex = 11;
+            this.data1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data1_CellContentClick);
+            // 
+            // txtroot
+            // 
+            this.txtroot.Location = new System.Drawing.Point(103, 87);
+            this.txtroot.Name = "txtroot";
+            this.txtroot.Size = new System.Drawing.Size(100, 23);
+            this.txtroot.TabIndex = 12;
+            this.txtroot.TextChanged += new System.EventHandler(this.textbox_TextChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(36, 89);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 21);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Root";
+            // 
+            // bisection
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtroot);
+            this.Controls.Add(this.data1);
+            this.Controls.Add(this.clear);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.txteps);
+            this.Controls.Add(this.txtEquation);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtxu);
+            this.Controls.Add(this.txtxl);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.calc);
+            this.Name = "bisection";
+            this.Text = "bisection";
+            this.Load += new System.EventHandler(this.bisection_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.data1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Button calc;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private TextBox txtxl;
+        private TextBox txtxu;
+        private Label label4;
+        private TextBox txtEquation;
+        private TextBox txteps;
+        private Button button2;
+        private Button clear;
+        private DataGridView data1;
+        private TextBox txtroot;
+        private Label label6;
+    }
+}
